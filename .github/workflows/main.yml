@@ -28,4 +28,4 @@ jobs:
           script: |
             sudo su - sonar
             cd /opt/sonarqube-7.6/bin/linux-x86-64
-            ls -l
+            ./sonar.sh start
