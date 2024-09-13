@@ -27,7 +27,7 @@ jobs:
           port: 22
           script: |
             sudo su - sonar
-            su sonar
+            echo "admin" | sudo -S su - sonar
             cd /opt/sonarqube-7.6/bin/linux-x86-64
             whoami
             ./sonar.sh start
