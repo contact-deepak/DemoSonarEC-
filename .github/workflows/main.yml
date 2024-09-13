@@ -29,5 +29,5 @@ jobs:
             cd /opt/sonarqube-7.6/bin/linux-x86-64
             whoami
             whoami
-            ls -l
+            ./sonar.sh start
             
