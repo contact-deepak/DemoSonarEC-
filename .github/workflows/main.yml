@@ -27,5 +27,5 @@ jobs:
           port: 22
           script: |
             sudo su - sonar
-            cd /opt
+            cd /opt/sonarqube-7.6/bin/linux-x86-64
             ls -l
