@@ -26,8 +26,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}  # The SSH private key added as a GitHub secret
           port: 22
           script: |
-            cd /opt/sonarqube-7.6/bin/linux-x86-64
-            whoami
-            whoami
+            cd /opt/sonarqube-10.6.0.92116/bin/linux-x86-64
             ./sonar.sh start
             
